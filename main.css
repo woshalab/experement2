@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+header {
+    background-image: url("assets/img/header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height: 500px;
+}
+
+.block-logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 80px;
+}
+
+.header-logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #60606e;
+}
+
+.menu-hamburger {
+    background-image: url("assets/icon/menu.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 31px;
+    height: 20px;
+}
+
+header h1 {
+    position: absolute;
+    top: 265px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #60606e;
+    width: 100%;
+}
+
+header h3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 325px;
+    text-align: center;
+    font-weight: bold;
+    color: #60606e;
+    width: 100%;
+}
+
+.wrap-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 65px 0;
+    grid-column-gap: 40px;
+
+
+}
+
+.about-us {
+    position: relative;
+
+
+}
+
+.about-us h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: #60606e;
+    text-transform: uppercase;
+
+}
+.green-block-1 {
+    position: absolute;
+    width: 67px;
+    height: 21px;
+    background-color: #7beec7;
+    z-index: -1;
+    top: 45px;
+    left: -5px;
+}
+
+.about-us h4 {
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #60606e;
+    margin-top: -15px;
+    line-height: 30px;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #60606e;
+}
+
+.what-we-do {
+    position: relative;
+
+}
+
+.what-we-do h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #60606e;
+    text-transform: uppercase;
+
+}
+
+.what-we-do h4 {
+    font-family: "Open sans";
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #60606e;
+    margin-top: -15px;
+    line-height: 30px;
+}
